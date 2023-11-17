@@ -3,7 +3,8 @@ Introducing Prime Archive, a repository for the purpose of managing my personal 
 
 ...
 
--Motivacional quote
+Motivacional quote:
+
 “… he who seeks for methods without having a definite problem in mind seeks for the most part in vain.”
 -David Hilbert
 
