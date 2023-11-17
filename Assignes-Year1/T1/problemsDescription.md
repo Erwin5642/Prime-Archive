@@ -17,11 +17,11 @@ This government, like every year, is very concerned about the payroll. This year
 Instead of paying employees as usual, the formula used to calculate salaries will be simpler: The sum of the divisors of the employee's registration number. 
 To avoid fraud, help the government make this calculation!
 
-- Input
+- Input: 
 The input starts with a line with a number 1 <= N <= 10^4 which is the number of employees. 
 Each of the following N lines represents an employee through their registration number 1 <= M <= 3 x 10^4.
 
-- Output
+- Output:
 The output consists of N lines, each containing the employee's salary in the order they were included in the input.
 ---
 # Tiles
@@ -31,11 +31,11 @@ He positioned all N tiles in a straight line, and numbered them all from 1 to N,
 To choose which tiles to paint, he thought of the following logic: he chose two integers A and B, and said that he would paint all the tiles whose enumeration was a multiple of A and/or B.
 Help Rafael find out how many tiles will be painted in total.
 
-- Input
+- Input: 
 There will be several test cases. Each test case contains three integers, N, A and B (3 ≤ N ≤ 10000, 2 ≤ A, B ≤ N).
 The last test case is indicated when N = A = B = 0, which should not be processed.
 
-- Output
+- Output: 
 For each test case, print a line containing an integer, showing how many tiles will be painted at the end of the process.
 ---
 # Coffee machine
@@ -45,9 +45,9 @@ time going up and down stairs. Each SBC employee drinks 1 espresso per day. He n
 It takes every employee 1 minute to go up or down a floor. Because SBC cares so much about efficiency, it wants to position the machine to minimize the total time spent going up and down stairs.
 Your task is to help management position the machine in a way that minimizes the total time employees spend going up and down stairs.
 
-- Input
+- Input: 
 The input consists of 3 numbers, A1, A2, A3 (≤ 0 Ai ≤ 1000), where Ai represents the number of people working on the ith floor.
 
-- Output
+- Output: 
 Your program should print on the first line, the total number of minutes to be spent with the best possible positioning of the machine,
 and on the second line, the floor(s) with the best positioning for the machine.
