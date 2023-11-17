@@ -6,10 +6,10 @@ So, the first floors are numbered 1, 2, 3, 5, 6, 7, 8 , 9, 10, 11, 12, 15, 16...
 Since the space elevator has many floors, and they need to number all the floors in the elevator, the Chinese asked you to write a program that, given the floor, indicates the number that should 
 be assigned to it.
 
-- Input
+- Input: 
 Each test case consists of a single line, containing an integer N (1 ≤ N ≤ 10^6) that indicates the floor number of which must be determined.
 
-- Output
+- Output: 
 For each test case, print a line containing a single integer indicating the number assigned to the N-th floor.
 ---
 # Payroll
