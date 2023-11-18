@@ -20,9 +20,15 @@ The options menu should be as follows:
 
 - Supply ATM Menu
 500 - Banknotes of 500;
+  
 150 - Banknotes of 150;
+
 50 - Banknotes of 50;
+
 ...
+
 2 - Banknotes of 2;
+
 1 - Banknotes of 1;
+
 0 - Return to Manager Menu;
