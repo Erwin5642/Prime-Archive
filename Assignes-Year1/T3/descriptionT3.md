@@ -23,8 +23,34 @@ Initially, the register is empty and when activating the Include option from the
 The show option from the client menu shows the data from the clients registered clients in the system.
 The change option from te client menu allows to change the CPF or checking account number of a client. The change is only possible if the client has not made any withdrawls. The system must preserve the format 999.999.999-99 and 999.999-x.
 The delete option allows to delete a client from the register if it has not made any withdraw. The checking account number should be used to delete a client. 
-To withdraw money, a client must provide their account number and, if it exist in the register, then the system will release the smallest quantity of banknotes for the requested amount. The amount should be show writed in cursive. The system should be supplied before the first withdrawal and the maximun values for each note are: 100 of 500; 200 of 150; 400 of 50; 800 of 20; 1600 of 10; 3200 of 5; 6400 of 2; and 12800 of 1.
+To withdraw money, a client must provide their account number and, if it exist in the register, then the system will release the smallest quantity of banknotes for the requested amount. The amount should be show writed in words. The system should be supplied before the first withdrawal and the maximun values for each note are: 100 of 500; 200 of 150; 400 of 50; 800 of 20; 1600 of 10; 3200 of 5; 6400 of 2; and 12800 of 1.
 
-* The relatories format can be seen in the PDF file.
-
+Bellow is each report and it format:
+---------------------------------------------------------------------------------------------------------------------------- 
+Report 'Amounts Withdraw' 
+---------------------------------------------------------------------------------------------------------------------------- 
+checking-account1 cpf1 R$ value1 
+ R$ value2 
+ R$ value3 
+ R$ total_l 
+checking-account2 cpf2 R$ value1 
+ R$ value2 
+ R$ total_2 
+... 
+---------------------------------------------------------------------------------------------------------------------------- 
+R$ total_value (value in words) 
+---------------------------------------------------------------------------------------------------------------------------- 
+---------------------------------------------------------------------------------------------------------------------------- 
+Report 'Existing Balance Amount' 
+---------------------------------------------------------------------------------------------------------------------------- 
+R$ value (value in words) 
+---------------------------------------------------------------------------------------------------------------------------- 
+---------------------------------------------------------------------------------------------------------------------------- 
+Report 'Number of existing banknotes' 
+---------------------------------------------------------------------------------------------------------------------------- 
+Note X quantity1 (value in words) 
+Note Y quantity2 (value in words) 
+Note Z quantity3 (value in words) 
+... 
+--------------------------------------------------------------------------------------------------------------------------
 
