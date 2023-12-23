@@ -63,5 +63,4 @@ The program must offer the following functionalities through option menus:
 4-List the cars sold of a given model, sorted in increasing order by year of manufacture (the following information must appear: year of manufacture, license plate and customer name)
 5-Inform the number of cars sold with the total value of the prices sold
 6-Report total profit from sales
----
 4-Exit the program
