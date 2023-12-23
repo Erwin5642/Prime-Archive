@@ -63,4 +63,99 @@ The program must offer the following functionalities through option menus:
 4-List the cars sold of a given model, sorted in increasing order by year of manufacture (the following information must appear: year of manufacture, license plate and customer name)
 5-Inform the number of cars sold with the total value of the prices sold
 6-Report total profit from sales
-4-Exit the program
+### 4-Exit the program
+
+### COMMENTS:
+ To insert a car, automatically generate the car information, and the user decides whether the car will be inserted.
+ When deleting a car, the user provides the license plate number of the car that they want to delete. Only one car can be excluded
+which has not yet been sold.
+ To insert a customer, automatically generate the customer information, and the user decides whether the customer will be inserted.
+ When deleting a customer, the user provides the CPF of the customer that they want to be deleted. Only one can be excluded
+customer if there is no sale recorded for him.
+ To enter a sale, both the car and the customer must exist in their respective records.
+ To delete a sale, the user provides the license plate number for searching.
+ The customer's CPF must be valid.
+ Example of a list of cars sorted in ascending order by manufacturer and model
+~~~text
+-------------------------------------------------- ----------------------------
+Board: CAT-2339
+Model: onix
+Manufacturer: Chevrolet
+Year of Manufacture: 2011
+Model Year: 2011
+Fuel: alcohol
+Green color
+Optional: abs, bench.leather
+Purchase Price: 74000.00
+-------------------------------------------------- ----------------------------
+Board: EEX-7522
+Model: S10
+Manufacturer: Chevrolet
+Year of Manufacture: 1996
+Model Year: 1997
+Fuel: diesel
+Orange color
+Optional: bench.leather
+Purchase Price: 140000.00
+-------------------------------------------------- ----------------------------
+Board: HWN-4442
+Model: road
+Manufacturer: Fiat
+Year of Manufacture: 1997
+Model Year: 1998
+Fuel: flex
+Gray color
+Optional: air.bag
+Purchase Price: 35400.00
+-------------------------------------------------- ----------------------------
+Board: NRK-9698
+Model: Corolla
+Manufacturer: Toyota
+Year of Manufacture: 2000
+Model Year: 2001
+Fuel: flex
+Silver color
+Optional: electric windows, airbag, automatic transmission
+Purchase Price: 10500.00
+-------------------------------------------------- ----------------------------
+Board: SDC-8925
+Model: hillux
+Manufacturer: Toyota
+Year of Manufacture: 1984
+Model Year: 1984
+Fuel: alcohol
+White color
+Optional: electric windows
+Purchase Price: 189300.00
+-------------------------------------------------- ----------------------------
+Board: TWV-3118
+Model: goal
+Manufacturer: Volkswagen
+Year of Manufacture: 1991
+Model Year: 1991
+Fuel: flex
+Yellow color
+Optional: automatic exchange
+Purchase Price: 6000.00
+-------------------------------------------------- ----------------------------
+Board: MQV-6733
+Model: sloop
+Manufacturer: Volkswagen
+Year of Manufacture: 2008
+Model Year: 2008
+Fuel: alcohol
+Color: brown
+Optional: parking sensor
+Purchase Price: 37000.00
+-------------------------------------------------- ----------------------------
+Board: GLK-3333
+Model: voyage
+Manufacturer: Volkswagen
+Year of Manufacture: 1982
+Model Year: 1982
+Fuel: alcohol
+Red color
+Optional: 4.ports
+Purchase Price: 17300.00
+-------------------------------------------------- ---------------------------
+~~~
