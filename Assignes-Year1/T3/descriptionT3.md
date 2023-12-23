@@ -26,7 +26,7 @@ The delete option allows to delete a client from the register if it has not made
 To withdraw money, a client must provide their account number and, if it exist in the register, then the system will release the smallest quantity of banknotes for the requested amount. The amount should be show writed in words. The system should be supplied before the first withdrawal and the maximun values for each note are: 100 of 500; 200 of 150; 400 of 50; 800 of 20; 1600 of 10; 3200 of 5; 6400 of 2; and 12800 of 1.
 
 Bellow is each report and it format:
-'''text
+~~~text
 ---------------------------------------------------------------------------------------------------------------------------- 
 Report 'Amounts Withdraw' 
 ---------------------------------------------------------------------------------------------------------------------------- 
@@ -54,5 +54,5 @@ Note Y quantity2 (value in words)
 Note Z quantity3 (value in words) 
 ... 
 --------------------------------------------------------------------------------------------------------------------------
-'''
+~~~
 
