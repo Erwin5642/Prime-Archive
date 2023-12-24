@@ -29,5 +29,5 @@ develop a C program using modules with a menu of options to:
 2. Sort the “carro.dbf” records in ascending order by the “plate” field and store them in the “carro.ord” file.
 3. Show the records of “carro.ord”.
 4. For each type of fuel, inform the number of cars.
-5. For each type of option, inform the number of cars.
+5. For each type of option, inform the number of cars. \
 The “optional” field of CAR is a vector to indicate which options a car has. For example, the set {1,0,0,0,1,0,0,1} stored in the vector indicates the following optional: "4.doors", "air.bag" and "parking.sensor".
